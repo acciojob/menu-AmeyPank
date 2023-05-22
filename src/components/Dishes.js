@@ -104,6 +104,7 @@ function Dishes() {
                             id={`filter-btn-${index + 1}`}
                             className={activeCategory === category ? 'active' : ''}
                             onClick={() => filterItems(category)}
+                            data-test-id={`menu-item-${category}`}
                         >
                             {category}
                         </button>
