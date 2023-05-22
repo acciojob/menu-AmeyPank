@@ -94,7 +94,7 @@ function App() {
     };
 
     return (
-        <div className="main">
+        <div className="main" id='main'>
             <header>
                 <h1>Our Menu</h1>
                 <div className="btn-container">

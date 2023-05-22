@@ -1,3 +1,6 @@
+body{
+    background-color: #f1f5f8;
+}
 .main {
     text-align: center;
     margin: 2rem;
@@ -51,6 +54,7 @@
     object-fit: cover;
     border-radius: 4px;
     margin-bottom: 1rem;
+    border:2px solid #ff4081;
   }
   
   .dish-info {
