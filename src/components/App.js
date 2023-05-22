@@ -94,19 +94,21 @@ function App() {
     };
 
     return (
-        <div className="App">
+        <div className="main">
             <header>
                 <h1>Our Menu</h1>
                 <div className="btn-container">
                     {allCategories.map((category, index) => (
                         <button
                             key={index}
+                            id={`filter-btn-${index + 1}`}
                             className={activeCategory === category ? 'active' : ''}
                             onClick={() => filterItems(category)}
                         >
                             {category}
                         </button>
                     ))}
+
                 </div>
             </header>
             <section className="dishes">
